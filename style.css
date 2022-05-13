@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+#btn-ontop{
+	border:none;
+	with: 50px;!impotain
+	height: 50px;
+	color:red;
+	border-radius: 50%;
+	background-color:white;
+	position: fixed;
+	right:20px;
+	bottom: 20px;
+	
+}
+	
+body{
+	scroll-behavior: smooth;!impotain
+}
+.carousel-item img{
+	width: 800px; !impotain
+}
+.navbar h2{
+	color: #D06BB6;
+
+}
+#aboutme{
+	background:url(assets/img/photos/1p3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height:600px;
+}
+.thongtin{
+	width: 100%;
+	min-height: 400px;
+	background:rgb(100,100,100,70%);
+	padding: 20px;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+}
+
+.thuvien{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: 250px 250px 250px 250px ;
+	grid-gap: 20px;
+}
+.goc1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start:1;
+	grid-row-end:3;
+}
+.goc2{
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start:2;
+	grid-row-end:4;
+}
+.oso1{
+	background-image: url("assets/img/photos/3004-17.png");
+	background-size: cover;
+}
+.oso5{
+	background-image: url("assets/img/photos/012701.png");
+	background-size: cover;
+}
+.oso6{
+	background-image: url("assets/img/photos/0127-02.png");
+	background-size: cover;
+}
+.oso7{
+	background-image: url("assets/img/photos/012703.png");
+	background-size: cover;
+}
+.oso8{
+	background-image: url("assets/img/photos/0127-04.png");
+	background-size: cover;
+}
+.oso2{
+	background-image: url( "assets/img/photos/2602.2-01.png");
+	background-size: cover;
+}
+.oso3{
+	background-image: url("assets/img/photos/FB.png");
+	background-size: cover;
+}
+.oso4{
+	background-image: url("assets/img/photos/yeo-2-png.jpg");
+	background-size: cover;
+}
+.oso9{
+	background-image: url("assets/img/photos/0118-04.jpg");
+	background-size: cover;
+}
+.oso10{
+	background-image: url("assets/img/photos/10042295-55UM7300PTA.jpg");
+	background-size: cover;
+}
